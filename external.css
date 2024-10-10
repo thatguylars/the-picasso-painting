@@ -19,6 +19,46 @@
   }
 }
 
+/* background*/
+.subBody {
+  background-image: url(old.jpeg);
+  background-size: cover;
+  background-position: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .thx {
-  background-color: bisque;
+  display: inline-flex;
+  margin: 20%vh;
+  box-shadow: 9px 6px 8px #fbf8f8;
+  font-family: cursive;
+}
+/*Picasso Homepage css*/
+body {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+img {
+  width: 100%;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
